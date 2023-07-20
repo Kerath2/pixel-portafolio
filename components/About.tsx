@@ -39,7 +39,7 @@ export default function About({ }: Props) {
           src="/pucp2.jpeg"
           width={300}
           height={300}
-          alt="gerardo-aws"
+          alt="imagen"
         />
       </motion.div>
 
