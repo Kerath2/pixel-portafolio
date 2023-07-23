@@ -42,9 +42,8 @@ export default function Hero({ }: Props) {
 
               <button className='heroButton'>Experiencia</button>
             </Link>
-            <Link href="#experiencia">
-
-              <button className='heroButton'>Habilidades</button>
+            <Link href="#integrantes">
+              <button className='heroButton'>Integrantes</button>
             </Link>
             <Link href="#contact">
 

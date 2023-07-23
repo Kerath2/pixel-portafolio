@@ -1,7 +1,9 @@
 import About from '@/components/About'
+import ContactMe from '@/components/ContactMe'
 import Experiencia from '@/components/Experiencia'
 import Header from '@/components/Header'
 import Hero from '@/components/Hero'
+import Integrantes from '@/components/Integrantes'
 
 export default function Home() {
   return (
@@ -21,7 +23,12 @@ export default function Home() {
       <section id="experiencia" className='snap-center'>
         <Experiencia/>
       </section>
-
+      <section id="integrantes" className='snap-center'>
+        <Integrantes/>
+      </section>
+      <section id="contact" className='snap-center'>
+        <ContactMe/>
+      </section>
     </main >
   )
 }
