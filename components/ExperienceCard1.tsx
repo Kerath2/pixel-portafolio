@@ -6,7 +6,7 @@ type Props = {}
 export default function ExperienceCard1({ }: Props) {
   return (
     <article className='flex flex-col rounded-lg items-center space-y-7 
-      flex-shrink-0 w-[500px] md:w-[600px] xl:w-[900px] snap-center 
+      flex-shrink-0 w-[500px] md:w-[600px] xl:w-[900px] xl:w-[700px] snap-center 
       bg-[#292929] p-10  hover:opacity-100 opacity-80 transition-opacity duration-200
       overflow-hidden' >
       <motion.div
